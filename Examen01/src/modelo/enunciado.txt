@@ -1,0 +1,54 @@
+Queremos desarrollar un programa en Java para gestionar el inventario de una tienda de electrónica. Cada producto en el inventario se identifica por un código único, y se almacena junto con su nombre, precio y cantidad disponible en stock.
+
+Define una clase Producto que contenga los siguientes atributos: código (String), nombre (String), precio (double) y cantidad en stock (int).
+
+Implementa los siguientes métodos estáticos en una clase llamada GestionInventario:
+
+public static void agregarProducto(Map<String, Producto> inventario): Este método permite agregar un nuevo producto al inventario. El usuario debe introducir el código, nombre, precio y cantidad del producto por consola.
+
+public static Producto eliminarProducto(Map<String, Producto> inventario, String codigo): Este método elimina un producto del inventario dado su código. Devuelve el producto eliminado o null si el producto no existe.
+
+public static void mostrarInventario(Map<String, Producto> inventario): Este método muestra una lista de todos los productos en el inventario junto con su código, nombre, precio y cantidad disponible.
+
+public static void mostrarProductosBaratos(Map<String, Producto> inventario, double maxPrecio): Este método muestra una lista de productos cuyo precio es menor o igual a un valor máximo dado.
+
+public static boolean actualizarStock(Map<String, Producto> inventario, String codigo, int cantidad): Este método permite actualizar la cantidad en stock de un producto dado su código. Si el producto existe en el inventario y la cantidad es positiva, se incrementa la cantidad en stock. Si la cantidad es negativa, se decrementa la cantidad en stock. Devuelve true si la operación se realiza con éxito, y false si el producto no existe en el inventario.
+
+Implementa un programa principal (main) que permita al usuario realizar operaciones de gestión del inventario, como agregar productos, eliminar productos, mostrar el inventario, mostrar productos baratos y actualizar el stock de un producto.
+
+Un tienda de telefonía móvil dispone de un amplio stock de dispositivos móviles de distintas marcas. Dispone un archivo .dat, en el cual, se muestra en cada línea, la marca y modelo de un teléfono inteligente separada por un espacio. Ejemplo:
+
+Samsung GalaxyS8
+Alcatel Lucent4
+Samsung Tab7
+Motorola M3
+Apple iPhone5
+La tienda quiere conocer los distintos fabricantes de los cuales tiene dispositivos en stock, por lo que, imprime por consola una lista con todos los fabricantes de teléfonos inteligentes disponibles en la tienda sin repetir ninguno
+
+Crea una clase colegio que almacene la nacionalidad de los alumnos de un colegio. La clase tendrá los siguientes métodos.
+
+addAlumno(String nacionalidad)
+añade la nacionalidad de un nuevo alumno
+
+showAll()
+Muestra las distintas nacionalidades y el número de alumnos que existen por nacionalidad.
+
+showNacionalidad(String nacionalidad)
+Muestra la nacionalidad y el número de alumnos de esa nacionalidad
+
+cuantos()
+Muestra cuántas nacionalidades diferentes existen en el colegio.
+
+borra()
+Elimina los datos insertados.
+
+Crea también una clase para testear la clase anterior.
+Crea también una clase exceptionVacio del tipo Exception que será lanzada en el caso que se llame al método addAlumno(String nacionalidad) con un parámetro nacionalidad vacío.
+Nota: Las nacionalidades se almacenan en mayúsculas.
+
+
+Elabora un programa que, lea un archivo HTML pasado por consola y genere un segundo archivo HTML (sinComentarios.html) idéntico al primero pero eliminando sus comentarios.
+
+Realiza un programa que diga cuántas ocurrencias de una palabra hay en un fichero .txt. Tanto el nombre del fichero como la palabra se deben pasar como argumentos en la línea de comandos.
+
+Archivos de respuestas Pregunta 25
